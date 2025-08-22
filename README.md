@@ -7,4 +7,7 @@ Note : a Machine learning Model passes through the following steps
     3) Train/test/validate the Model  
     4) save the Model   
     5) turn the jupyter notebook to python script so that you can manage it easly  
-    6)
+    6) then split to training and predict  
+    7) use Fastapi to serve that model as a webservice(Request and Response)  
+    8) create a simple web app ping pong i.e you gonna create an end point using a function ping pong and then change it to webservice     
+    9) 
