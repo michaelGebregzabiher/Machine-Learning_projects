@@ -9,5 +9,5 @@ app = FastAPI(title="Ping")
 def ping():
     return {"message": "This is my first fastapi app"}
 
-if __name__ == "__main__":
+if __name__ == "__main__":          #The if __name__ == "__main__": guard means the server only starts when this file is run directly (e.g., python main.py), not when it’s imported elsewhere.
     uvicorn.run(app, host="0.0.0.0", port=9696)
